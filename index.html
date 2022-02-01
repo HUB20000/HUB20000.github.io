@@ -1,0 +1,40 @@
+
+
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Gooniez Gang</title>
+<meta name="description" content="A Gang of 8,888 Gooniez unleashed to cause chaos in the Metaverse.">
+<meta property="og:image" content="/thumbnail.png">
+<link rel="shortcut icon" type="image/jpg" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<script src="web3.min.js"></script>
+<script src="jquery.min.js"></script>
+<script type="module" src="common.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<a class="but"  id="connect">CONNECT YOUR WALLET</a>
+<div class="quantity" id="quantity">Quantity (max 5): <input type="number" id="mintnumber" min="1" max="5" value="1"><button class="butmax" onclick="change()">SET MAX</button></div>
+<a  id="mint"><div class="but">MINT</div></a>
+<div class="mintprice1" id="mint-text">Sold:  6873/8888</div>
+<div class="mintprice">Price per mint is 0.15 ETH + Gas<br><br>1. Connect your wallet with MetaMask.<br>2. Click on button to mint your Gooniez.</div>
+<div class="social-wrap-2" style="margin-top: 50px;justify-content:space-around">
+</div>
+</div>
+
+<script>
+
+  function change(){
+  	var txt = "5";
+  	document.getElementById("mintnumber").value = txt;
+  }
+
+</script>
+
+
+</body>
+</html>
